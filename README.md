@@ -1,5 +1,4 @@
-SPOR MERKEZİ PROJESİ
-
+[SPOR MERKEZİ PROJESİ](https://sport-center-proje.netlify.app)
 
 VİDEO:
 ![GIF Açıklaması](proje-on-izleme.gif)
