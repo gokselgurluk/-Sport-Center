@@ -1,0 +1,1325 @@
+/* GENERAL STYLES & ROOT */
+:root {
+    /* font colors */
+    --font-color-1: white;
+    --font-color-2: #355592;
+    --font-color-3: black;
+    /* background colors */
+    --bg-color-1: white;
+    --bg-color-2: #ec9b00;
+    --bg-color-3: #355592;
+    --bg-color-4: #f2f8ff;
+    --bg-color-5: #f6f6f6;
+    --bg-color-6: rgb(0, 0, 0, 0.7);
+    /* border colors */
+    --border-color-1: white;
+    --border-color-2: black;
+    --border-color-3: #ec9b00;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+ 
+  html {
+    overflow-x: hidden;
+  
+  }
+  body {
+    background-color: var(--bg-color-1);
+    color: var(--font-color-3);
+  }
+
+  /*Header Section*/
+
+  .header {
+    width: 100vw;
+    height: 3vh;
+    padding: 1rem 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    background-color: transparent;
+    font-size: 1.2rem;
+  }
+  .header img {
+    height: 8vh;
+  }
+  .navbar-web {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    width: 70%;
+ 
+  }
+  
+  .navbar-web a {
+    text-decoration: none;
+    color: var(--font-color-1);
+    font-weight: bold;
+    
+  }
+  
+  .navbar-web .join {
+    background-color: var(--bg-color-2);
+    border-radius: 1rem;
+    width: 6rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem;
+  }
+  /* hmbrgr menu */
+.menu-btn,
+.menu-icon {
+  display: none;
+}
+  /* Home Section */
+  .home{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .home .hero-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -5;
+}
+.home .hero-img img {
+    width: 100%;
+  }
+ /* Home Section-hero */
+  .hero {
+    width: 80%;
+    position: relative;
+    margin: 18vh auto;
+    color: var(--font-color-1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+  }
+  .hero h1{
+    font-size: 5rem;
+    line-height: 5rem;
+    text-shadow: 2px 2px var(--font-color-3);
+  }
+  .hero p {
+    background-color: var(--bg-color-6);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 0 10px 0 10px;
+  }
+  
+  .hero button {
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+  
+  }
+  
+  .hero-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero .button-1 {
+    color: var(--font-color-1);
+    font-size: 1.2rem;
+    background-color: var(--bg-color-3);
+    border-color: var(--bg-color-3);
+    border-style: none;
+    text-shadow: 1.5px 1.5px var(--font-color-3);
+  }
+  
+  .hero .button-2 {
+    color: var(--font-color-1);
+    font-size: 1.4rem;
+    background-color: var(--bg-color-3);
+    border-color: var(--bg-color-3);
+    border-style: none;
+  }
+  
+  .hero .button-3 {
+    color: var(--font-color-1);
+    font-size: 1.4rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid var(--border-color-1);
+    margin-left: 1.5rem;
+  }
+  /* Home Section-box */
+ 
+.home-boxes {
+    width: 100%;
+    background-color: var(--bg-color-4);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem 0;
+  }
+  .home-boxes .box {
+    background-color: var(--bg-color-1);
+    width: 16%;
+    height: 16vh;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+  }
+  .home-boxes .box h4 {
+    color: var(--font-color-2);
+    font-weight: bold;
+    font-size: 1.6rem;
+  }
+  .home-boxes .box p {
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+/*  Classes Section */
+
+.our-classes {
+  position: relative;
+  width: 100%;
+  height: 80vh; /* İstediğiniz sabit yüksekliği belirleyin */
+  overflow: hidden;
+  padding: 5vh 0;
+}
+  .bg-color-classes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-color-5);
+    z-index: -100;
+    clip-path: polygon(30% 0, 100% 0%, 100% 100%, 50% 100%);
+  }
+  
+.our-classes hr {
+    border: 3px solid var(--bg-color-2);
+    border-radius: 5px;
+    width: 50px;
+  }
+  .class-start {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+.class-start p {
+    margin: 24px 0;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    opacity:60%;
+
+  }
+  .class-start h2 {
+    font-size: 1.6rem;
+    color: var(--font-color-2);
+    margin: 4vh 0 1vh 0;
+  }
+  .class-btn {
+    padding: 0.2rem 12rem;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-wrap: wrap;
+    
+  }
+  /* Buton stili */
+.class-btn button {
+    position: relative; /* Konumlama için gerekli */
+    background-color: var(--bg-color-3); /* Varsayılan arka plan rengi */
+    border: 1px solid var(--bg-color-3); /* Varsayılan kenarlık rengi */
+    color: var(--font-color-1); /* Varsayılan yazı rengi */
+    padding: 4px 16px; /* İç padding */
+    border-radius: 3px; /* Köşeleri yuvarla */
+    font-size: 1.4rem;
+    cursor: pointer; /* İmleç göstergesi */
+  }
+  
+  /* Tıklanan butona stil */
+  .class-btn button.selected {
+    background-color: #ec9b00; /* Arka plan rengini turuncu yapar */
+    color: #fff; /* Yazı rengini beyaz yapar */
+  }
+  
+  /* Tıklanan butona üçgen simgesi */
+  .class-btn button.selected::after {
+    content: ""; /* Boş içerik */
+    position: absolute; /* Konumlama için gerekli */
+    bottom: -15px; /* Alt tarafa yakınlık */
+    left: 50%; /* Ortalanmış */
+    transform: translateX(-50%); /* Ortalamayı sağlar */
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent; /* Üçgenin sol kenarı */
+    border-right: 10px solid transparent; /* Üçgenin sağ kenarı */
+    border-top: 10px solid #ec9b00; /* Üçgenin üst kenarı */
+  }
+  .class-content {
+    height: auto;
+    width: 80%;
+    margin: auto;
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding-top: 1rem;
+  }
+  
+  .class-text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 40%;
+  }
+  
+  .class-text p, h4 {
+    margin-top: 2vh;
+  }
+  
+  .class-text h4 {
+    font-size: 1.5rem;
+    opacity: 70%;
+    font-weight:800;
+  }
+  
+  .class-text p {
+    font-size: 0.9rem;
+    opacity: 60%;
+    font-weight: bold;
+    word-spacing: 0.2re m;
+    line-height: 1.2em;
+  }
+  
+  .class-img {
+    margin-top: 2rem;
+    width: 25%;
+    
+  }
+  /* .bmi-calculator*/
+  .bmi-calculator{
+    height: 55vh;
+    width: 80%;
+    margin: auto;
+    
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 7rem;
+    padding-top: 14vh;
+  }
+  .calculator-text {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column;*/
+  width: 40%;
+  gap: 1rem;
+  
+  }
+  .calculator-text h2 {
+  font-size: 2rem;
+  color: var(--font-color-2);
+
+}
+.calculator-text p {
+  font-size: 0.9rem;
+  opacity: 60%;
+  font-weight: bold;
+  word-spacing: 0.2re m;
+  line-height: 1.2em;
+}
+
+.calculator-input form {
+  display: flex;
+  /*flex-wrap: wrap;*/
+  justify-content: start;
+  align-items: center;
+  gap: 20px; /* Form elemanları arasındaki boşluk */
+}
+  /* Yanıp sönme efekti ve diğer stil ayarları için CSS */
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }  
+  }
+  .calculator-input p#enter {
+    color: var(--bg-color-4); /* Mavi renk */
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid var(--bg-color-2);
+    border-radius: 8px; /* Köşe 
+    yuvarlama */
+    width: 40%;
+    padding: 2px 10px;
+    background-color: var(--bg-color-3); /* Hafif mavi arka plan */
+    animation: blink 5s infinite; /* Yanıp sönme efekti */
+    display: inline-block;
+  }
+  .calculator-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+    
+  .input-group input {
+    flex: 1;
+    padding: 10px; /* İç boşluk ekle */
+    border: 1px solid #ccc; /* Sınır ekle */
+    border-radius: 4px; /* Köşe yuvarlama */
+    width: 50%; /* Genişliği yarıya düşür */
+  }
+  .input-group span {
+    font-weight: bold;
+  }
+  .calculator-img img {
+    width: 120%;
+  }
+  .calculator-img h6 {
+    font-size: 1.4rem;
+  }
+  .calculator-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    position: relative;
+  }
+  .indicator {
+    position: absolute;
+    bottom: -5vh;
+    left: -3%;
+    z-index: 99;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 24px solid var(--bg-color-2);
+  }
+
+
+/* D) TRAINERS SECTION*/
+/* D1) .trainers  */
+.trainer {
+  position: relative;
+  padding: 5vh 0;
+  
+}
+
+.trainers {
+ 
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap :4vh;
+}
+
+.bg-color-trainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-color-4);
+  z-index: -100;
+}
+
+/* .trainers-start */
+.trainers-start {
+  width: 40%;
+  margin: auto;
+  margin-top: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.trainers-start h2 {
+  font-size: 1.6rem;
+  color: var(--font-color-2);
+  margin: 4vh 0 1vh 0;
+}
+
+.trainers-start p {
+  margin: 24px 0;
+  font-size: 0.9rem;
+  opacity: 60%;
+  font-weight: bold;
+  word-spacing: 0.2re m;
+  line-height: 1.2em;
+}
+
+.trainers-start hr {
+  border: 3px solid var(--bg-color-2);
+  border-radius: 5px;
+  width: 50px;
+}
+
+/* .trainers-gallery */
+.trainers-gallery {
+  position: relative;
+  width: 70vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3%;
+  padding: 1.2rem 0;
+}
+
+.trainer-1, 
+.trainer-2, 
+.trainer-3 {
+  position: relative;
+  width: 25%;
+}
+
+/* .trainer-text */
+.trainer-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 90%;
+  height: 33%;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--bg-color-3);
+  transition: all 0.5s ease-in;
+  clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+}
+
+.trainer-text h4 {
+  font-size: 1.4rem;
+  color: var(--bg-color-1);
+}
+
+.trainer-text p {
+  color: var(--bg-color-1);
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+/* trainer img */
+.img-1,
+.img-2,
+.img-3 {
+  /* display: block; */
+  cursor: pointer;
+  border: 2px solid var(--border-color-3);
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+}
+
+/* .trainer-bg */
+.trainer-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--bg-color-3);
+  width: 106%;
+  height: 106%;
+  z-index: -1;
+  transition: all 0.5s ease-in;
+  clip-path: polygon(0% 30%, 30% 30%, 30% 0%, 70% 0%, 70% 30%, 100% 30%, 100% 70%, 70% 70%, 70% 100%, 30% 100%, 30% 70%, 0% 70%);
+}
+/*.purchase */
+.purchase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2rem 0;
+  gap: 4vh;
+}
+/* .purchase-start */
+.purchase-start {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.purchase-start h2 {
+  font-size: 1.6rem;
+  color: var(--font-color-2);
+  margin: 4vh 0 1vh 0;
+}
+.purchase-start p {
+  margin: 24px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  opacity: 60%;
+  font-weight: bold;
+  word-spacing: 0.2re m;
+  line-height: 1.2em;
+}
+.purchase-start hr {
+  border: 3px solid var(--bg-color-2);
+  border-radius: 5px;
+  width: 50px;
+}
+/* .purchase-cards */
+.purchase-cards {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: center;
+  align-items: stretch;
+  gap: 2%;
+}
+.card {
+  width: 18%;
+  padding-bottom: 1.5rem;
+  box-shadow: 0 4px 4px 0 rgba(142, 142, 142, 0.3), 0 10px 10px 0 rgba(142, 142, 142, 0.3);
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden; /* İçerikleri taşan alanları gizler */
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  transform: scale(1.01);
+  transition: all 0.2s ease-in;
+}
+
+.card .add {
+  position: relative;
+}
+
+.card .add p {
+  position: relative;
+  overflow: hidden; /* Taşan içerikleri gizle */
+  z-index: 1; /* Diğer elemanların üstünde olmasını sağlar */
+  padding: 10px; /* İçerik etrafında boşluk bırakır */
+}
+
+.card .add p::before {
+  content: '';
+  position: absolute;
+  top: 50%; /* Yatayda ortala */
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background-color: #355592;; /* Arka plan rengini ayarla */
+  border-radius: 8px; /* Köşeleri yuvarlat */
+  transform: translateY(-50%) scaleX(0); /* Yatayda sıfırdan başlayıp uzanacak */
+  transform-origin: left center; /* Animasyonun sol kenardan başlamasını sağlar */
+  transition: transform 0.3s ease-in-out; /* Animasyon efekti */
+  z-index: -1; /* Metnin arkasında kalmasını sağlar */
+  
+}
+
+.card:hover .add p::before {
+  transform: translateY(-50%) scaleX(1); /* Yatayda tamamen uzanır */
+}
+.card:hover .add p {
+  color: white; /* Hover durumunda metin rengini beyaz yapar */
+}
+.card .add p b {
+  position: relative;
+  z-index: 1;
+}
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+.card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-text > * {
+  margin-bottom: 10px; /* Elemanlar arasına 10px boşluk ekler */
+}
+
+.card-text > *:last-child {
+  margin-bottom: 0; /* Son eleman için boşluğu kaldırır */
+}
+.card-text .add {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.card-text h4 {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+/* REVIEW SECTION*/
+.review {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5vh 0;
+  
+}
+.bg-color-review {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-color-4);
+  z-index: -100;
+}
+
+/* .review-start */
+.review-start {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.review-start h2 {
+  font-size: 1.6rem;
+  color: var(--font-color-2);
+  margin: 4vh 0 1vh 0;
+}
+.review-start p {
+  margin: 24px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  opacity: 60%;
+  font-weight: bold;
+  word-spacing: 0.2re m;
+  line-height: 1.2em;
+}
+.review-start hr {
+  border: 3px solid var(--bg-color-2);
+  border-radius: 5px;
+  width: 50px;
+}
+
+/* .review-content */
+.review-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 5%;
+  justify-content: center;
+  align-items: stretch
+}
+.review-1, 
+.review-2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+  width: 28%;
+  margin: 1.2rem;
+  padding: 1.2rem 0;
+}
+/* .review-content .profil */
+.profil {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+.profil img {
+  width: 10%;
+  border-radius: 50%;
+}
+
+.info {
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 0.5rem;
+}
+.info h4{
+  margin: 0;
+  padding: 0;
+  opacity: 70%;
+  font-weight: bold;
+}
+.info span{
+  margin: 0;
+  padding: 0;
+  opacity: 60%;
+  font-weight: bold;
+}
+/* .review-content .profil-text */
+.profil-text {
+  position: relative;
+  width:auto;
+  box-sizing: border-box;
+  background-color: var(--bg-color-3);
+  padding: 1rem;
+  color: var(--bg-color-1);
+  font-size: 0.7rem;
+}
+.after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 125%;
+  background-color: var(--bg-color-2);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 95% 100%, 95% 80%, 5% 80%, 5% 100%, 0 80%);
+  opacity: 0.5;
+  z-index: -1;
+}
+/*CONTACT SECTION*/
+.contact {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5vh 0;
+}
+/* .contact-start */
+.contact-start {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.contact-start h2 {
+  font-size: 1.6rem;
+  color: var(--font-color-2);
+  margin: 4vh 0 1vh 0;
+}
+.contact-start p {
+  margin: 24px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  opacity: 60%;
+  font-weight: bold;
+  word-spacing: 0.2re m;
+  line-height: 1.2em;
+}
+.contact-start hr {
+  border: 3px solid var(--bg-color-2);
+  border-radius: 5px;
+  width: 50px;
+}
+/* .contact-content */
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  gap: 5%;
+  margin: auto;
+  padding: 1.2rem 0;
+  justify-content: center;
+  align-items: stretch;
+}
+
+
+/* .contact-form */
+.contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+  width: 30%;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.contact-info > div {
+  margin-bottom: 1rem;
+}
+.contact-info h4 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: var(--font-color-2);
+}
+.contact-info span {
+  font-size: 1rem;
+  color: var(--font-color-3);
+}
+.contact-form h4 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+}
+.contact-form .contact-input h4 {
+  font-size: 1.4rem;
+}
+.contact-input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
+}
+
+.contact-input form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+.contact-input h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: var(--font-color-2);
+}
+
+.contact-input form input,
+.contact-input form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.contact-input form input::placeholder,
+.contact-input form textarea::placeholder {
+  color: #999;
+}
+/* .contact-map */
+.contact-map {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+  width: 50%;
+  padding: 1.2rem 0;
+}
+.contact-map iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+footer {
+  width: 100%;
+  background-color: var(--bg-color-3);
+  padding: 1.2rem 0;
+}
+.footer-content {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin: auto;
+  color: var(--font-color-1);
+  font-size: 1.0rem;
+}
+.footer-content p{
+  margin: 24px 0;
+  font-size: 0.9rem;
+  opacity: 90%;
+  font-weight: normal;
+  word-spacing: 0.2rem;
+  line-height: 1.2em;
+}
+/* .links */
+.links {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* align-items: center; */
+}
+.information, .helpful {
+  display: flex;
+  flex-direction: column;
+}
+.links a {
+  color: var(--bg-color-1);
+  text-decoration: none;
+  margin-top: 10%;
+  font-size: 0.7rem;
+}
+.links h4 {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+/* RESPONSIVE DESIGN FOR 576PX SCREEN */
+@media screen and (max-width: 576px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  section {
+    padding: 2rem 1rem;
+  }
+  /* HEADER SECTION */
+  .header {
+    height: 4vh;
+    justify-content: space-between;
+  }
+ 
+  .header img  {
+    height: 8vh;
+    padding: 0 0 0 1rem;
+  }
+ /* Menü İkonu */
+.menu-icon {
+  display: block;
+  font-size: 2rem;
+  color: var(--font-color-1);
+  cursor: pointer;
+  padding: 2rem;
+}
+
+/* Menü Kontrolü */
+.menu-btn {
+  display: none;
+}
+
+/* Navbar */
+.navbar-web {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  position: absolute;
+  padding: 1rem;
+  top: 9vh;
+  right: -100%;
+  background-color: var(--bg-color-3);
+  gap: 0.6rem;
+  transition: right 0.5s ease;
+}
+
+/* Menü Açılma Durumu */
+.menu-btn:checked ~ .navbar-web {
+  right: 0;
+}
+
+/* Menü Bağlantıları */
+.navbar-web ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-web ul li {
+  margin: 1rem 0;
+}
+
+.navbar-web ul li a {
+  color: var(--font-color-1);
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+  /*  HOME SECTION */
+  /* Home */
+  .home  {
+  display: flex;
+  flex-direction: column;
+
+  }
+  .home .hero-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 180%;
+    z-index: -5;
+  }
+  
+  .home .hero-img img {
+    object-fit: cover;
+  }
+
+  .hero {
+    margin: 20vh auto auto auto;
+    gap: 1vh;
+  }
+
+  .hero h1{
+    font-size: 1.5rem;
+    line-height: 1em;
+  }
+  
+  .hero p {
+    font-size: 0.8rem;
+  }
+
+  .hero-btn {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  
+  }
+
+  .hero .button-3 {
+    margin: 1rem 0 1rem 0;
+  }
+
+  .hero .button-1 {
+    font-size: 1rem;
+    text-align: start;
+  }
+
+  .hero .button-2,
+  .hero .button-3 {
+    font-size: 1rem;
+    text-align: start;
+  }
+
+  /* Home boxes */
+  .home-boxes {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 7.5rem;
+    width: 100%;
+  }
+
+  .home-boxes .box {
+    width: 50%;
+    height: 20vh;
+  }
+
+  /* CLASSES SECTION */
+  /*  .our-classes */
+  
+  .our-classes {
+    height: auto;
+  }
+  .class-start h2{
+    font-size: 1.3rem;
+  }
+  .class-btn {
+    padding: 0.2rem;
+    gap: 2rem;
+  }
+
+  .class-btn button {
+     /* Butonları daha dar ekranlarda iki sütun yap */
+    padding: 0.5rem;
+    font-size: 1rem;
+   text-align: center;
+   width: 30%;
+   
+    
+  }
+
+  .class-content {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .class-text,
+  .class-img,
+  .calculator-text,
+  .calculator-img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .bmi-calculator {
+    height: auto;
+    padding-top: 2rem;
+    gap: 2rem;
+  }
+
+  .bmi-calculator h2{
+    font-size: 1.3rem;
+  }
+  .class-text h4{
+    font-size: 0.9rem;
+  }
+  .calculator-img img {
+    width: 100%;
+  }
+
+  .indicator {
+    position: absolute;
+    bottom: -3vh;
+    left: 6%;
+    z-index: 99;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 16px solid var(--bg-color-2);
+  }
+  /* TRAINERS SECTION*/
+  /* .trainers  */
+  .trainers-gallery {
+    flex-direction: column;
+    gap: 2rem;
+  }
+.calculator-input p#enter{
+  font-size: 1.5vh;
+  text-align: center;
+}
+  .trainer-1, 
+  .trainer-2, 
+  .trainer-3 {
+    width: 50%;
+  }
+  .trainers-start{
+    width: 80%;
+    text-align: center;
+  }
+  .trainers-start p{
+    width: 60%;
+    text-align: center;
+  }
+  .trainers-start h2{
+ 
+    font-size: 1.3rem;
+  }
+  .trainer-text h4,
+  .trainer-text p {
+    font-size: 1rem;
+    
+    color: var(--bg-color-1);
+  }
+
+  /*  .purchase */
+  .purchase-start h2{
+ 
+    font-size: 1.3rem;
+  }
+  .purchase-cards {
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .card {
+    width: 60%;
+  }
+
+  /* REVIEW SECTION*/
+  .review-content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Ortalamak için */
+    gap: 2rem; /* İki article arasındaki boşluk */
+    padding: 1rem;
+  }
+
+  .review-1, .review-2 {
+    width: 70%;
+    margin: 0;
+  }
+  .review-start h2{
+ 
+    font-size: 1.3rem;
+  }
+  /* CONTACT SECTION */
+  .contact-content {
+   
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Ortalamak için */
+    gap: 2rem; /* İki article arasındaki boşluk */
+    padding: 1rem;
+
+  } 
+  .contact-start h2 {
+  font-size: 1.3rem;
+   }
+  
+  .contact-input {
+   text-align: center;
+  }
+
+  .contact-form {
+    justify-content: center;
+    width: 60%;
+  }
+
+  .contact-info {
+    text-align: center;
+    justify-content: space-between;
+  }
+
+  .contact-map {
+    margin-top: 3vh;
+    width: 60%;
+    height: 40vh;
+  }
+
+  /* FOOTER */
+  .footer-content {
+    width: 80%;
+  }
+}
