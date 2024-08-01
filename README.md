@@ -1,5 +1,5 @@
 SPOR MERKEZİ PROJESİ
-(https://papaya-biscochitos-7005aa.netlify.app/)
+
 
 VİDEO:
 ![GIF Açıklaması](proje-on-izleme.gif)
