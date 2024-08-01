@@ -141,6 +141,8 @@
     border-color: var(--bg-color-3);
     border-style: none;
     text-shadow: 1.5px 1.5px var(--font-color-3);
+    cursor: pointer; /* Tıklanabilir olduğunu belirtir */
+    transition: background-color 0.3s ease;
   }
   
   .hero .button-2 {
@@ -149,6 +151,7 @@
     background-color: var(--bg-color-3);
     border-color: var(--bg-color-3);
     border-style: none;
+    cursor: pointer; /* Tıklanabilir olduğunu belirtir */
   }
   
   .hero .button-3 {
@@ -157,6 +160,16 @@
     background-color: rgba(0, 0, 0, 0.5);
     border: 1px solid var(--border-color-1);
     margin-left: 1.5rem;
+    cursor: pointer; /* Tıklanabilir olduğunu belirtir */
+  }
+  .button-1:hover,.button-2:hover {
+    background-color: rgba(0, 0, 0, 0.5); /* Tıklanabilir olduğunu belirtmek için hover efekti */
+  }
+  .button-3:hover{
+    background-color: #003f7f;
+  }
+  .button-1:active .button-2:active, .button-3:active {
+    background-color: #003f7f; /* Tıklama sırasında görsel geri bildirim */
   }
   /* Home Section-box */
  

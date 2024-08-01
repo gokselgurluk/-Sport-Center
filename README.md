@@ -11,11 +11,13 @@ AKIŞ & İÇERİK
 ÜST BİLGİ
 Sayfada aşağı kaydırıldığında üst bilginin arka plan rengini değiştirir.
 
+### [B HOME SECTION](https://sport-center-proje.netlify.app#index.html#section-home)
  ANA SAYFA BÖLMESİ
 .hero
 .home-boxes
 
- DERSLER BÖLMESİ
+### [C CLASSES SECTION](https://sport-center-proje.netlify.app#index.html#section-classes)
+DERSLER BÖLMESİ
 .our-classes
 Farklı ders türlerine (yoga, grup, solo, esneme) ilişkin içerikleri görüntüleme işlevleri tanımlar.
 Seçilen düğmeye göre .class-content öğesinin içeriğini günceller.
@@ -23,13 +25,20 @@ Düğmelere tıklama olaylarını dinleyerek ilgili işlevi tetikler.
 .bmi-calculator
 Kullanıcı girişi (ağırlık ve yükseklik) temelinde BMI (Vücut Kitle İndeksi) hesaplayan bir işlev tanımlar.
 Hesaplama işlevini tetiklemek için giriş alanlarında (yükseklik ve ağırlık için) tuş vuruşu olaylarını dinler.
- EĞİTMEN BÖLMESİ
+ 
+### [D TRAINER SECTION](https://sport-center-proje.netlify.app#index.html#section-trainer)
+EĞİTMEN BÖLMESİ
 .trainers
 Eğitmen görüntüleri için üzerine gelme (hover) efektleri uygular.
 Bir görüntünün üzerine gelindiğinde arka plan boyutu ve şekli ayarlanır.
 Üzerine gelinen görüntüyle ilişkili metinlerin opaklığı değiştirilir.
 .purchase
 
+### [E REVIEW SECTION](https://sport-center-proje.netlify.app#index.html#section-review)
 YORUM BÖLMESİ
+
+### [F CONTACT SECTION](https://sport-center-proje.netlify.app#index.html#section-contact)
 İLETİŞİM BÖLMESİ
+
+### [G FOOTER](https://sport-center-proje.netlify.app#index.html#footer)
 ALT BİLGİ

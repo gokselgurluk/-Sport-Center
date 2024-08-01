@@ -1,4 +1,13 @@
 // HEADER
+document.querySelector('.button-1').addEventListener('click', function() {
+    alert('Kurcalama Kardeşim Bozarsın !');
+});
+document.querySelector('.button-2').addEventListener('click', function() {
+    window.location.href = 'https://stellarium-web.org/';
+});
+document.querySelector('.button-3').addEventListener('click', function() {
+    window.location.href = 'https://www.youtube.com/watch?v=SvMHAx7hnPw&t=215s&ab_channel=R%C4%B1ht%C4%B1maVarmayanCeset';
+});
 // to change the background of the header when scrolling:
 window.addEventListener("scroll", (event) => {
     const header = document.querySelector(".header");
