@@ -7,7 +7,7 @@ VİDEO:
 HTML, CSS ve Vanilla JS kullanılarak hazırlanmış bu projede, kullanıcı etkileşimlerine, kaydırma olaylarına ve farklı ekran boyutlarına (web ve 576px ekran) duyarlı bir tasarım yapılmıştır.
 
 AKIŞ & İÇERİK
-
+### [A HEADER](https://sport-center-proje.netlify.app#index.html#section-home)
 ÜST BİLGİ
 Sayfada aşağı kaydırıldığında üst bilginin arka plan rengini değiştirir.
 
