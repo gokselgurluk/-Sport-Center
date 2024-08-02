@@ -7,11 +7,11 @@ VİDEO:
 HTML, CSS ve Vanilla JS kullanılarak hazırlanmış bu projede, kullanıcı etkileşimlerine, kaydırma olaylarına ve farklı ekran boyutlarına (web ve 576px ekran) duyarlı bir tasarım yapılmıştır.
 
 AKIŞ & İÇERİK
-### [A HEADER](https://sport-center-proje.netlify.app#index.html#section-home)
+### [A HEADER](https://sport-center-proje.netlify.app/#section-header)
 ÜST BİLGİ
 Sayfada aşağı kaydırıldığında üst bilginin arka plan rengini değiştirir.
 
-### [B HOME SECTION](https://sport-center-proje.netlify.app#index.html#section-home)
+### [B HOME SECTION](https://sport-center-proje.netlify.app/#section-home)
  ANA SAYFA BÖLMESİ
 .hero
 .home-boxes
@@ -26,7 +26,7 @@ Düğmelere tıklama olaylarını dinleyerek ilgili işlevi tetikler.
 Kullanıcı girişi (ağırlık ve yükseklik) temelinde BMI (Vücut Kitle İndeksi) hesaplayan bir işlev tanımlar.
 Hesaplama işlevini tetiklemek için giriş alanlarında (yükseklik ve ağırlık için) tuş vuruşu olaylarını dinler.
  
-### [D TRAINER SECTION](https://sport-center-proje.netlify.app#index.html#section-trainer)
+### [D TRAINER SECTION](https://sport-center-proje.netlify.app/#section-trainer)
 EĞİTMEN BÖLMESİ
 .trainers
 Eğitmen görüntüleri için üzerine gelme (hover) efektleri uygular.
@@ -34,11 +34,11 @@ Bir görüntünün üzerine gelindiğinde arka plan boyutu ve şekli ayarlanır.
 Üzerine gelinen görüntüyle ilişkili metinlerin opaklığı değiştirilir.
 .purchase
 
-### [E REVIEW SECTION](https://sport-center-proje.netlify.app#index.html#section-review)
+### [E REVIEW SECTION](https://sport-center-proje.netlify.app/#section-review)
 YORUM BÖLMESİ
 
-### [F CONTACT SECTION](https://sport-center-proje.netlify.app#index.html#section-contact)
+### [F CONTACT SECTION](https://sport-center-proje.netlify.app/#section-contact)
 İLETİŞİM BÖLMESİ
 
-### [G FOOTER](https://sport-center-proje.netlify.app#index.html#footer)
+### [G FOOTER](https://sport-center-proje.netlify.app/#footer)
 ALT BİLGİ
