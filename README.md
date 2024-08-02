@@ -16,7 +16,7 @@ Sayfada aşağı kaydırıldığında üst bilginin arka plan rengini değiştir
 .hero
 .home-boxes
 
-### [C CLASSES SECTION](https://sport-center-proje.netlify.app#index.html#section-classes)
+### [C CLASSES SECTION](https://sport-center-proje.netlify.app/#section-classes)
 DERSLER BÖLMESİ
 .our-classes
 Farklı ders türlerine (yoga, grup, solo, esneme) ilişkin içerikleri görüntüleme işlevleri tanımlar.
